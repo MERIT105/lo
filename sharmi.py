@@ -13,7 +13,7 @@ from dateutil.relativedelta import relativedelta
 import time
 
 # Idef create_random_key()nsert your Telegram bot token here
-bot = telebot.TeleBot('7660543796:AAHj4qd0WZ6bi1rxG3iySvsCsygW2fVjyPs') 
+bot = telebot.TeleBot('7660543796:AAHsYMHYo2F0X3F14EG-IKlb_7UYc74oSas') 
 
 # -------------------------------
 REQUIRED_CHANNELS = {
@@ -420,7 +420,7 @@ def process_attack_details(message):
             else:
                 # Log the attack with correct variable name
                 log_command(user_id, target, port, attack_time)
-                full_command = f"./love {target} {port} {attack_time} 1600"  # ✅ Correct variable name
+                full_command = f"./love {target} {port} {attack_time} 2000"  # ✅ Correct variable name
 
                 username = message.chat.username or "No username"
 
